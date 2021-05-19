@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3D11513C262FB97100939CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11513B262FB97100939CB2 /* AppDelegate.swift */; };
 		3D11513E262FB97100939CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11513D262FB97100939CB2 /* SceneDelegate.swift */; };
 		3D115140262FB97100939CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11513F262FB97100939CB2 /* ViewController.swift */; };
-		3D115143262FB97100939CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D115141262FB97100939CB2 /* Main.storyboard */; };
 		3D115145262FB97200939CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D115144262FB97200939CB2 /* Assets.xcassets */; };
 		3D115148262FB97200939CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D115146262FB97200939CB2 /* LaunchScreen.storyboard */; };
+		3D9AA5E5263FA65600085D59 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9AA5E4263FA65600085D59 /* LoginViewController.swift */; };
+		3D9AA5EA263FD8BB00085D59 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9AA5E9263FD8BB00085D59 /* Keychain.swift */; };
+		3D9AA5F3263FE16E00085D59 /* minion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D9AA5F2263FE16E00085D59 /* minion.jpg */; };
+		3DB936642639065C00860CD5 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB936632639065C00860CD5 /* HistoryViewController.swift */; };
+		3DB9366726390FCD00860CD5 /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9366626390FCD00860CD5 /* DTO.swift */; };
+		3DB9366B263A84E800860CD5 /* HistoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9366A263A84E800860CD5 /* HistoryDetailsViewController.swift */; };
+		3DB9366E263A88B000860CD5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9366D263A88B000860CD5 /* Utils.swift */; };
+		3DB93672263AA41600860CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D115141262FB97100939CB2 /* Main.storyboard */; };
+		BF4DE991734BA56440EA657A /* Pods_MyGPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3461F752B992F2D6F53C89 /* Pods_MyGPS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,16 @@
 		3D115144262FB97200939CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D115147262FB97200939CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D115149262FB97200939CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9AA5E4263FA65600085D59 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D9AA5E9263FD8BB00085D59 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		3D9AA5F2263FE16E00085D59 /* minion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minion.jpg; sourceTree = "<group>"; };
+		3DB936632639065C00860CD5 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3DB9366626390FCD00860CD5 /* DTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
+		3DB9366A263A84E800860CD5 /* HistoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailsViewController.swift; sourceTree = "<group>"; };
+		3DB9366D263A88B000860CD5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6A3461F752B992F2D6F53C89 /* Pods_MyGPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7FDDA32AE2F24472729509 /* Pods-MyGPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGPS.debug.xcconfig"; path = "Target Support Files/Pods-MyGPS/Pods-MyGPS.debug.xcconfig"; sourceTree = "<group>"; };
+		972017C72B8F0667E3283D65 /* Pods-MyGPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGPS.release.xcconfig"; path = "Target Support Files/Pods-MyGPS/Pods-MyGPS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4DE991734BA56440EA657A /* Pods_MyGPS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110A2F88E6506200A3475FA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D7FDDA32AE2F24472729509 /* Pods-MyGPS.debug.xcconfig */,
+				972017C72B8F0667E3283D65 /* Pods-MyGPS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3D11512F262FB97100939CB2 = {
 			isa = PBXGroup;
 			children = (
 				3D11513A262FB97100939CB2 /* MyGPS */,
 				3D115139262FB97100939CB2 /* Products */,
+				110A2F88E6506200A3475FA7 /* Pods */,
+				79DD8FB9DB602545A8C83552 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,30 @@
 		3D11513A262FB97100939CB2 /* MyGPS */ = {
 			isa = PBXGroup;
 			children = (
+				3D9AA5F2263FE16E00085D59 /* minion.jpg */,
 				3D11513B262FB97100939CB2 /* AppDelegate.swift */,
 				3D11513D262FB97100939CB2 /* SceneDelegate.swift */,
+				3D9AA5E4263FA65600085D59 /* LoginViewController.swift */,
 				3D11513F262FB97100939CB2 /* ViewController.swift */,
 				3D115141262FB97100939CB2 /* Main.storyboard */,
-				3D115144262FB97200939CB2 /* Assets.xcassets */,
 				3D115146262FB97200939CB2 /* LaunchScreen.storyboard */,
+				3DB936632639065C00860CD5 /* HistoryViewController.swift */,
+				3DB9366A263A84E800860CD5 /* HistoryDetailsViewController.swift */,
+				3DB9366626390FCD00860CD5 /* DTO.swift */,
+				3DB9366D263A88B000860CD5 /* Utils.swift */,
 				3D115149262FB97200939CB2 /* Info.plist */,
+				3D115144262FB97200939CB2 /* Assets.xcassets */,
+				3D9AA5E9263FD8BB00085D59 /* Keychain.swift */,
 			);
 			path = MyGPS;
+			sourceTree = "<group>";
+		};
+		79DD8FB9DB602545A8C83552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A3461F752B992F2D6F53C89 /* Pods_MyGPS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D11514C262FB97200939CB2 /* Build configuration list for PBXNativeTarget "MyGPS" */;
 			buildPhases = (
+				447403331A3925BE947A5D7D /* [CP] Check Pods Manifest.lock */,
 				3D115134262FB97100939CB2 /* Sources */,
 				3D115135262FB97100939CB2 /* Frameworks */,
 				3D115136262FB97100939CB2 /* Resources */,
+				77BF995CD3F25B5910C2945E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +171,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB93672263AA41600860CD5 /* Main.storyboard in Resources */,
 				3D115148262FB97200939CB2 /* LaunchScreen.storyboard in Resources */,
 				3D115145262FB97200939CB2 /* Assets.xcassets in Resources */,
-				3D115143262FB97100939CB2 /* Main.storyboard in Resources */,
+				3D9AA5F3263FE16E00085D59 /* minion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		447403331A3925BE947A5D7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGPS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BF995CD3F25B5910C2945E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyGPS/Pods-MyGPS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyGPS/Pods-MyGPS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyGPS/Pods-MyGPS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D115134262FB97100939CB2 /* Sources */ = {
@@ -139,7 +229,13 @@
 			files = (
 				3D115140262FB97100939CB2 /* ViewController.swift in Sources */,
 				3D11513C262FB97100939CB2 /* AppDelegate.swift in Sources */,
+				3DB9366B263A84E800860CD5 /* HistoryDetailsViewController.swift in Sources */,
+				3DB9366E263A88B000860CD5 /* Utils.swift in Sources */,
+				3D9AA5E5263FA65600085D59 /* LoginViewController.swift in Sources */,
+				3D9AA5EA263FD8BB00085D59 /* Keychain.swift in Sources */,
 				3D11513E262FB97100939CB2 /* SceneDelegate.swift in Sources */,
+				3DB9366726390FCD00860CD5 /* DTO.swift in Sources */,
+				3DB936642639065C00860CD5 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +379,19 @@
 		};
 		3D11514D262FB97200939CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7FDDA32AE2F24472729509 /* Pods-MyGPS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F2R9N2VUUJ;
+				DEVELOPMENT_TEAM = 2L2Q5RZ2XU;
 				INFOPLIST_FILE = MyGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.MyGPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,16 +401,19 @@
 		};
 		3D11514E262FB97200939CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972017C72B8F0667E3283D65 /* Pods-MyGPS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F2R9N2VUUJ;
+				DEVELOPMENT_TEAM = 2L2Q5RZ2XU;
 				INFOPLIST_FILE = MyGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.MyGPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
